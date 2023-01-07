@@ -1,1 +1,0 @@
-releases/next/sublime-solitaire.js

@@ -1,4 +1,4 @@
-# sublimesolitaire.com
+# superpatience.com
 
 ## License
 
