@@ -1,1 +1,1 @@
-v/next/super-patience.js
+v/latest/super-patience.js

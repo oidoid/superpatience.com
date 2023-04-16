@@ -1,5 +1,7 @@
 # superpatience.com
 
+to-do: move next to latest or something like that
+
 ## License
 
 © oidoid.
