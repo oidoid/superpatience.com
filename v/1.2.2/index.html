@@ -1,0 +1,2009 @@
+<!doctype html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <title>Super Patience</title>
+    <link rel='icon' href='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAAXNSR0IArs4c6QAAAAxQTFRFAAAABAoKXmFe5ubjePkhTQAAAAR0Uk5TAP///7MtQIgAAABASURBVBiVjY7RCgAgCAPV/f8/50wqA8F7kHETUeBIEhmqVzBzHFI45kRohCWNgD3wBbDZvQsZCFQBKTe5MhAfC+qMAeFG/TCaAAAAAElFTkSuQmCC'>
+    <link rel='manifest' href='data:application/json,%7B%22name%22%3A%22Super%20Patience%22%2C%22background_color%22%3A%22%2300000000%22%2C%22display%22%3A%22fullscreen%22%2C%22orientation%22%3A%22any%22%2C%22start_url%22%3A%22https%3A%2F%2Fsuperpatience.com%22%2C%22icons%22%3A%5B%7B%22src%22%3A%22data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAAXNSR0IArs4c6QAAAAxQTFRFAAAABAoKXmFe5ubjePkhTQAAAAR0Uk5TAP%2F%2F%2F7MtQIgAAABASURBVBiVjY7RCgAgCAPV%2Ff8%2F50wqA8F7kHETUeBIEhmqVzBzHFI45kRohCWNgD3wBbDZvQsZCFQBKTe5MhAfC%2BqMAeFG%2FTCaAAAAAElFTkSuQmCC%22%2C%22sizes%22%3A%2216x16%22%2C%22type%22%3A%22image%2Fpng%22%7D%2C%7B%22src%22%3A%22data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAAXNSR0IArs4c6QAAAAxQTFRFAAAABAoKXmFe5ubjePkhTQAAAAR0Uk5TAP%2F%2F%2F7MtQIgAAABWSURBVDiN1ZFBDgAQDATR%2F%2F8ZsUWqioswxzVpo%2BsIOEHNNwSf0ATk28LImVAIoCV3hSC4KxDJR6a2aQq5Fh7Zjy8Cente4G%2FqQncHQ5idCUs%2BEWyWQgQu0geBcmHcKQAAAABJRU5ErkJggg%3D%3D%22%2C%22sizes%22%3A%2232x32%22%2C%22type%22%3A%22image%2Fpng%22%7D%2C%7B%22src%22%3A%22data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAAXNSR0IArs4c6QAAAAxQTFRFAAAABAoKXmFe5ubjePkhTQAAAAR0Uk5TAP%2F%2F%2F7MtQIgAAABdSURBVEiJ7dPbCkAREIVhh%2Fd%2FZ6JYxvnCUOa%2Ftb5Se1MWUp2KDQvQoTHIG14w6ApIGYgcCSDTJvsZ%2BHpTLC4ZQHyBeNf69gnkJyvgNsAvPQX01zgGzHICngJbnQcOB%2B0Q4TcZAiAAAAAASUVORK5CYII%3D%22%2C%22sizes%22%3A%2248x48%22%2C%22type%22%3A%22image%2Fpng%22%7D%2C%7B%22src%22%3A%22data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAAXNSR0IArs4c6QAAAAxQTFRFAAAABAoKXmFe5ubjePkhTQAAAAR0Uk5TAP%2F%2F%2F7MtQIgAAABnSURBVFiF7dXBCoAgEEVRq%2F%2F%2F5wia0JfpRKsu7y5z5iwEqWxSmXSbhwDLWRZo5oFAJjJQt0q9GQNcQBdHkAEWcDRb1GKPAMTPIg6eLlO%2FX8sGDEAAfUxvgO5r%2FCmgw9kMGKABXwIAO0xRHgEXsv12AAAAAElFTkSuQmCC%22%2C%22sizes%22%3A%2264x64%22%2C%22type%22%3A%22image%2Fpng%22%7D%2C%7B%22src%22%3A%22data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAMAAAADACAMAAABlApw1AAAAAXNSR0IArs4c6QAAAAxQTFRFAAAABAoKXmFe5ubjePkhTQAAAAR0Uk5TAP%2F%2F%2F7MtQIgAAAEFSURBVHic7dsxDsMgEERRJ77%2FndMmxUpegZkYvX8AmNfRcJzNjptr7wEAAAAAAAAAmAR4FaUAl%2FYAAAAAAAAAACwErAwAYDAAgMEAAAYD2AZwpXezkbsAAAAAAAAAAAAAAAAAAAAAANYDukPvgAEAAAAAAAAAAAAAAAAAAAAAzAV8d%2FfQbtVOgFUBpANIB5AOIN2%2BgOoTWnXQrEde95xyNAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAE3AW%2FTPgBwMAAAAAAAAAMAnQHZEKIB1AOoB0AOkA0gGkA0gHkA4gHUA6gHQA6QDSAaQDSAeQDiDdvoAnBpAOIB1AOoB0AOkeD%2FgAHmcOEK5W6mcAAAAASUVORK5CYII%3D%22%2C%22sizes%22%3A%22192x192%22%2C%22type%22%3A%22image%2Fpng%22%7D%2C%7B%22src%22%3A%22data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAAAXNSR0IArs4c6QAAAAxQTFRFAAAABAoKXmFe5ubjePkhTQAAAAR0Uk5TAP%2F%2F%2F7MtQIgAAAeHSURBVHic7dwxkhtGEARBSvr%2Fn%2FUDwgBHtafOshGIxmza%2BPVP3K%2Fx8vvnA8bL758PGC%2B%2Ffz5gvPz%2B%2BYDx8vvnA8bL758PGC%2B%2Ffz5gvPz%2B%2BYDx8vvnA8bL758PGC%2B%2Ffz5gvPz%2B%2BYDx8vvnA8bL758PGC%2B%2Ffz5gvPz%2B%2BYDx8vvnA8bL758PGC%2B%2Ffz5gvPz%2B%2BYDx8vvnA8bL758PGC%2B%2Ffz5gvPz%2B%2BYDx8vvnA8bL758PGC%2B%2Ffz5gvPz%2B%2BYDx8vvnA8bL758PGC%2B%2Ffz5gvPz%2Bnz7w15d9HDBefv98wHj5%2FfMB4%2BX3zweMl98%2FHzBefv98wHj5%2FfMB4%2BX3zweMl98%2FHzBefv98wHj5%2FfMB4%2BX3zweMl98%2FHzBefv98wHj5%2FfMB4%2BX3zweMl98%2FHzBefv98wHj5%2FfMB4%2BX3zweMl98%2FHzBefv98wHj5%2FfMB4%2BX3zweMl98%2FHzBefv98wHj5%2FfMB4%2BX3zweMl98%2FHzBefv98wHj5%2FfMB4%2BX3zweMl9%2B%2FHqDfB8B4AIwHwHgAjAfAeACMB8B4AIwHwHgAjAfAeACMB8B4AIwHwHgAjAfAeACMB8B4AIwHwHgAjAfAeACMB8B4AIwHwHgAjAfAeACMB8B4Px7AdX%2FH1b%2F%2FUwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACPB8DvAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHg8AH4fAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA%2FLcA6gesu74vAI93fV8AHu%2F6vgA83vV9AXi86%2FsC8HjX9wXg8a7vC8DjXd8XgMe7vi8Aj3d9XwAe7%2Fq%2BADze9X0BeLzr%2BwLweNf3BeDxru8LwONd3xeAx7u%2BLwCPd31fAB7v%2Br4APN71fQF4vOv7AvB41%2FcF4PGu7wvA413fF4DHu74vAI93fV8AHu%2F6vgA83vV9AXi86%2FsC8HjX9wXg8a7vC8DjXd8XgMe7vi8Aj3d9XwAe7%2Fq%2BADze9X0BeLzr%2BwLweNf3BeDxru8LwONd3xeAx7u%2BLwCPd31fAB7v%2Br4APN71fQF4vOv7AvB41%2FcF4PGu7wvA413fF4DHu74vAI93fV8AHu%2F6vgA83vV9AXi86%2FsC8HjX9wXg8a7vC8DjXd8XgMe7vi8Aj3d9XwAe7%2Fq%2BADze9X0BeLzr%2BwLweNf3BeDxru8LwONd3%2FdrAJ%2BqD7jet%2B8HwA8PgPEAGA%2BA8QAYD4DxABgPgPEAGA%2BA8QAYD4DxABgPgPEAGA%2BA8QAYD4DxABgPgPEAGA%2BA8QAYD4DxABgPgPEAGA%2BA8QAYD4DxABjvawCfugbw7R8g%2FIkj%2FuT9Xz8wAD97PwBx9X4A4ur9AMTV%2BwGIq%2FcDEFfvByCu3g9AXL0fgLh6PwBx9X4A4ur9AMTV%2BwGIq%2FcDEFfvByCu3g9AXL0fgLh6PwBx9X4A4ur9AMTV%2BwGIq%2FcDEFfvByCu3g9AXL0fgLh6PwBx9X4A4ur9AMTV%2BwGIq%2FcDEFfvByCu3g9AXL0fgLh6PwBx9X4A4ur9AMTV%2BwGIq%2FcDEFfvByCu3g9AXL0fgLh6PwBx9X4A4ur9AMTV%2BwGIq%2FcDEFfvByCu3g9AXL0fgLh6PwBx9X4A4ur9AMTV%2BwGIq%2FcDEFfvByCu3g9AXL0fgLh6PwBx9X4A4ur9AMTV%2BwGIq%2FcDEFfvByCu3g9AXL0fgLh6PwBx9X4A4ur9AMTV%2BwGIq%2FcDEFfvByCu3g9AXL0fgLh6PwBx9X4A4ur9AMTV%2BwGIq%2FcDEFfvByCu3g9AXL0fgLh6PwBx9X4A4ur9AMTV%2BwGIq%2FcDEFfvByCu3g9AXL0fgLh6PwBx9X4A4ur9AMTV%2BwGIq%2FcDEFfvByCu3v81gE9fAMDb%2B799PwB%2B%2BH4A4ur9AMTV%2BwGIq%2FcDEFfvByCu3g9AXL0fgLh6PwBx9X4A4ur9AMTV%2BwGIq%2FcDEFfvByCu3g9AXL0fgLh6PwBx9X4A4ur9AMTV%2BwGIq%2FcDEFfvByCu3g9AXL0fgLh6PwBx9X4A4ur9AMTV%2BwGIq%2FcDEFfvByCu3g9AXL3%2FHMCfOJK6ABgPgPEAGA%2BA8QAYD4DxABgPgPEAGA%2BA8QAYD4DxABgPgPEAGA%2BA8QAYD4DxABgPgPEAGA%2BA8QAYD4DxABgPgPEAGA%2BA8QAYD4DxABgPgPEAGA%2BA8QAYD4DxABgPgPEAGA%2BA8QAYD4DxABgPgPEAGA%2BA8QAYD4DxABgPgPEAGA%2BA8QAYD4DxABgPgPEAGA%2BA8QAYD4DxABgPgPEAGA%2BA8QAYD4DxABgPgPEAGA%2BA8QAYD4DxABgPgPEAGA%2BA8QAYD4DxABgPgPEAGA%2BA8QAYD4DxABgPgPEAGA%2BA8QAYD4DxABgPgPEAGA%2BA8QAY72sA%2Bn8HwHgAjAfAeACMB8B4AIwHwHgAjAfAeACMB8B4AIwHwHgAjAfAeACMB8B4AIwHwHgAjAfAeACMB8B4AIwHwHgAjAfAeACMB8B4AIwHwHj%2FAnlQgGrB38WIAAAAAElFTkSuQmCC%22%2C%22sizes%22%3A%22512x512%22%2C%22type%22%3A%22image%2Fpng%22%7D%5D%7D'>
+    <script type='module'>
+
+const atlasURI = 'data:image/png;base64,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'
+const atlas = {"background--Grid":{"id":0,"w":8,"h":8,"cels":[{"x":112,"y":240}],"hitbox":{"x":0,"y":0,"w":0,"h":0},"tag":"background--Grid"},"background--Corner":{"id":16,"w":8,"h":8,"cels":[{"x":104,"y":240}],"hitbox":{"x":0,"y":0,"w":0,"h":0},"tag":"background--Corner"},"background--Checkerboard":{"id":32,"w":8,"h":8,"cels":[{"x":96,"y":240}],"hitbox":{"x":0,"y":0,"w":0,"h":0},"tag":"background--Checkerboard"},"card--CA":{"id":48,"w":24,"h":32,"cels":[{"x":168,"y":96}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--CA"},"card--C2":{"id":64,"w":24,"h":32,"cels":[{"x":192,"y":96}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--C2"},"card--C3":{"id":80,"w":24,"h":32,"cels":[{"x":0,"y":128}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--C3"},"card--C4":{"id":96,"w":24,"h":32,"cels":[{"x":24,"y":128}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--C4"},"card--C5":{"id":112,"w":24,"h":32,"cels":[{"x":48,"y":128}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--C5"},"card--C6":{"id":128,"w":24,"h":32,"cels":[{"x":72,"y":128}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--C6"},"card--C7":{"id":144,"w":24,"h":32,"cels":[{"x":96,"y":128}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--C7"},"card--C8":{"id":160,"w":24,"h":32,"cels":[{"x":120,"y":128}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--C8"},"card--C9":{"id":176,"w":24,"h":32,"cels":[{"x":144,"y":128}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--C9"},"card--C10":{"id":192,"w":24,"h":32,"cels":[{"x":168,"y":128}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--C10"},"card--CJ":{"id":208,"w":24,"h":32,"cels":[{"x":192,"y":128}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--CJ"},"card--CQ":{"id":224,"w":24,"h":32,"cels":[{"x":0,"y":160}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--CQ"},"card--CK":{"id":240,"w":24,"h":32,"cels":[{"x":24,"y":160}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--CK"},"card--DA":{"id":256,"w":24,"h":32,"cels":[{"x":48,"y":160}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--DA"},"card--D2":{"id":272,"w":24,"h":32,"cels":[{"x":72,"y":160}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--D2"},"card--D3":{"id":288,"w":24,"h":32,"cels":[{"x":96,"y":160}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--D3"},"card--D4":{"id":304,"w":24,"h":32,"cels":[{"x":120,"y":160}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--D4"},"card--D5":{"id":320,"w":24,"h":32,"cels":[{"x":144,"y":160}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--D5"},"card--D6":{"id":336,"w":24,"h":32,"cels":[{"x":168,"y":160}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--D6"},"card--D7":{"id":352,"w":24,"h":32,"cels":[{"x":192,"y":160}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--D7"},"card--D8":{"id":368,"w":24,"h":32,"cels":[{"x":0,"y":192}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--D8"},"card--D9":{"id":384,"w":24,"h":32,"cels":[{"x":24,"y":192}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--D9"},"card--D10":{"id":400,"w":24,"h":32,"cels":[{"x":48,"y":192}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--D10"},"card--DJ":{"id":416,"w":24,"h":32,"cels":[{"x":72,"y":192}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--DJ"},"card--DQ":{"id":432,"w":24,"h":32,"cels":[{"x":96,"y":192}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--DQ"},"card--DK":{"id":448,"w":24,"h":32,"cels":[{"x":120,"y":192}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--DK"},"card--HA":{"id":464,"w":24,"h":32,"cels":[{"x":144,"y":192}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--HA"},"card--H2":{"id":480,"w":24,"h":32,"cels":[{"x":120,"y":96}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--H2"},"card--H3":{"id":496,"w":24,"h":32,"cels":[{"x":168,"y":32}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--H3"},"card--H4":{"id":512,"w":24,"h":32,"cels":[{"x":24,"y":0}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--H4"},"card--H5":{"id":528,"w":24,"h":32,"cels":[{"x":48,"y":0}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--H5"},"card--H6":{"id":544,"w":24,"h":32,"cels":[{"x":72,"y":0}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--H6"},"card--H7":{"id":560,"w":24,"h":32,"cels":[{"x":96,"y":0}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--H7"},"card--H8":{"id":576,"w":24,"h":32,"cels":[{"x":120,"y":0}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--H8"},"card--H9":{"id":592,"w":24,"h":32,"cels":[{"x":144,"y":0}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--H9"},"card--H10":{"id":608,"w":24,"h":32,"cels":[{"x":168,"y":0}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--H10"},"card--HJ":{"id":624,"w":24,"h":32,"cels":[{"x":192,"y":0}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--HJ"},"card--HQ":{"id":640,"w":24,"h":32,"cels":[{"x":0,"y":32}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--HQ"},"card--HK":{"id":656,"w":24,"h":32,"cels":[{"x":24,"y":32}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--HK"},"card--SA":{"id":672,"w":24,"h":32,"cels":[{"x":48,"y":32}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--SA"},"card--S2":{"id":688,"w":24,"h":32,"cels":[{"x":72,"y":32}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--S2"},"card--S3":{"id":704,"w":24,"h":32,"cels":[{"x":96,"y":32}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--S3"},"card--S4":{"id":720,"w":24,"h":32,"cels":[{"x":120,"y":32}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--S4"},"card--S5":{"id":736,"w":24,"h":32,"cels":[{"x":144,"y":32}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--S5"},"card--S6":{"id":752,"w":24,"h":32,"cels":[{"x":0,"y":0}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--S6"},"card--S7":{"id":768,"w":24,"h":32,"cels":[{"x":192,"y":32}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--S7"},"card--S8":{"id":784,"w":24,"h":32,"cels":[{"x":0,"y":64}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--S8"},"card--S9":{"id":800,"w":24,"h":32,"cels":[{"x":24,"y":64}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--S9"},"card--S10":{"id":816,"w":24,"h":32,"cels":[{"x":48,"y":64}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--S10"},"card--SJ":{"id":832,"w":24,"h":32,"cels":[{"x":72,"y":64}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--SJ"},"card--SQ":{"id":848,"w":24,"h":32,"cels":[{"x":96,"y":64}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--SQ"},"card--SK":{"id":864,"w":24,"h":32,"cels":[{"x":120,"y":64}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--SK"},"card--Down":{"id":880,"w":24,"h":32,"cels":[{"x":144,"y":64}],"hitbox":{"x":0,"y":0,"w":24,"h":32},"tag":"card--Down"},"card--VacantPile":{"id":896,"w":24,"h":32,"cels":[{"x":168,"y":64}],"hitbox":{"x":0,"y":0,"w":0,"h":0},"tag":"card--VacantPile"},"card--VacantStock":{"id":912,"w":24,"h":32,"cels":[{"x":192,"y":64}],"hitbox":{"x":4,"y":7,"w":16,"h":16},"tag":"card--VacantStock"},"card--VacantClubs":{"id":928,"w":24,"h":32,"cels":[{"x":0,"y":96}],"hitbox":{"x":0,"y":0,"w":0,"h":0},"tag":"card--VacantClubs"},"card--VacantDiamonds":{"id":944,"w":24,"h":32,"cels":[{"x":24,"y":96}],"hitbox":{"x":0,"y":0,"w":0,"h":0},"tag":"card--VacantDiamonds"},"card--VacantHearts":{"id":960,"w":24,"h":32,"cels":[{"x":48,"y":96}],"hitbox":{"x":0,"y":0,"w":0,"h":0},"tag":"card--VacantHearts"},"card--VacantSpades":{"id":976,"w":24,"h":32,"cels":[{"x":72,"y":96}],"hitbox":{"x":0,"y":0,"w":0,"h":0},"tag":"card--VacantSpades"},"card--OutlineFocus":{"id":992,"w":24,"h":32,"cels":[{"x":96,"y":96}],"hitbox":{"x":0,"y":0,"w":0,"h":0},"tag":"card--OutlineFocus"},"card--OutlineChecked":{"id":1008,"w":24,"h":32,"cels":[{"x":144,"y":96}],"hitbox":{"x":0,"y":0,"w":0,"h":0},"tag":"card--OutlineChecked"},"cursor--Point":{"id":1024,"w":16,"h":16,"cels":[{"x":16,"y":224}],"hitbox":{"x":0,"y":0,"w":3,"h":3},"tag":"cursor--Point"},"cursor--Pick":{"id":1040,"w":16,"h":16,"cels":[{"x":0,"y":224}],"hitbox":{"x":0,"y":0,"w":3,"h":3},"tag":"cursor--Pick"},"palette--Alpha":{"id":1056,"w":8,"h":8,"cels":[{"x":88,"y":240}],"hitbox":{"x":0,"y":0,"w":0,"h":0},"tag":"palette--Alpha"},"palette--Dark":{"id":1072,"w":8,"h":8,"cels":[{"x":80,"y":240}],"hitbox":{"x":0,"y":0,"w":0,"h":0},"tag":"palette--Dark"},"palette--Mid":{"id":1088,"w":8,"h":8,"cels":[{"x":160,"y":232}],"hitbox":{"x":0,"y":0,"w":0,"h":0},"tag":"palette--Mid"},"palette--Light":{"id":1104,"w":8,"h":8,"cels":[{"x":160,"y":224}],"hitbox":{"x":0,"y":0,"w":0,"h":0},"tag":"palette--Light"},"patience-the-demon--Good":{"id":1120,"w":24,"h":24,"cels":[{"x":168,"y":192}],"hitbox":{"x":0,"y":0,"w":7,"h":10},"tag":"patience-the-demon--Good"},"patience-the-demon--GoodBlink":{"id":1136,"w":24,"h":24,"cels":[{"x":168,"y":216}],"hitbox":{"x":0,"y":0,"w":0,"h":0},"tag":"patience-the-demon--GoodBlink"},"patience-the-demon--Evil":{"id":1152,"w":24,"h":24,"cels":[{"x":192,"y":216}],"hitbox":{"x":0,"y":0,"w":7,"h":10},"tag":"patience-the-demon--Evil"},"patience-the-demon--EvilBlink":{"id":1168,"w":24,"h":24,"cels":[{"x":192,"y":192}],"hitbox":{"x":0,"y":0,"w":0,"h":0},"tag":"patience-the-demon--EvilBlink"},"tally--0":{"id":1184,"w":16,"h":8,"cels":[{"x":64,"y":240}],"hitbox":{"x":0,"y":0,"w":0,"h":0},"tag":"tally--0"},"tally--1":{"id":1200,"w":16,"h":8,"cels":[{"x":48,"y":240}],"hitbox":{"x":0,"y":0,"w":0,"h":0},"tag":"tally--1"},"tally--2":{"id":1216,"w":16,"h":8,"cels":[{"x":32,"y":240}],"hitbox":{"x":0,"y":0,"w":0,"h":0},"tag":"tally--2"},"tally--3":{"id":1232,"w":16,"h":8,"cels":[{"x":16,"y":240}],"hitbox":{"x":0,"y":0,"w":0,"h":0},"tag":"tally--3"},"tally--4":{"id":1248,"w":16,"h":8,"cels":[{"x":0,"y":240}],"hitbox":{"x":0,"y":0,"w":0,"h":0},"tag":"tally--4"},"tally--5":{"id":1264,"w":16,"h":8,"cels":[{"x":144,"y":232}],"hitbox":{"x":0,"y":0,"w":0,"h":0},"tag":"tally--5"},"tally--6":{"id":1280,"w":16,"h":8,"cels":[{"x":128,"y":232}],"hitbox":{"x":0,"y":0,"w":0,"h":0},"tag":"tally--6"},"tally--7":{"id":1296,"w":16,"h":8,"cels":[{"x":128,"y":224}],"hitbox":{"x":0,"y":0,"w":0,"h":0},"tag":"tally--7"},"tally--8":{"id":1312,"w":16,"h":8,"cels":[{"x":96,"y":224}],"hitbox":{"x":0,"y":0,"w":0,"h":0},"tag":"tally--8"},"tally--9":{"id":1328,"w":16,"h":8,"cels":[{"x":32,"y":224}],"hitbox":{"x":0,"y":0,"w":0,"h":0},"tag":"tally--9"},"tally--10":{"id":1344,"w":16,"h":8,"cels":[{"x":48,"y":224}],"hitbox":{"x":0,"y":0,"w":0,"h":0},"tag":"tally--10"},"tally--11":{"id":1360,"w":16,"h":8,"cels":[{"x":64,"y":224}],"hitbox":{"x":0,"y":0,"w":0,"h":0},"tag":"tally--11"},"tally--12":{"id":1376,"w":16,"h":8,"cels":[{"x":80,"y":224}],"hitbox":{"x":0,"y":0,"w":0,"h":0},"tag":"tally--12"},"tally--13":{"id":1392,"w":16,"h":8,"cels":[{"x":144,"y":224}],"hitbox":{"x":0,"y":0,"w":0,"h":0},"tag":"tally--13"},"tally--14":{"id":1408,"w":16,"h":8,"cels":[{"x":32,"y":232}],"hitbox":{"x":0,"y":0,"w":0,"h":0},"tag":"tally--14"},"tally--15":{"id":1424,"w":16,"h":8,"cels":[{"x":48,"y":232}],"hitbox":{"x":0,"y":0,"w":0,"h":0},"tag":"tally--15"},"tally--16":{"id":1440,"w":16,"h":8,"cels":[{"x":64,"y":232}],"hitbox":{"x":0,"y":0,"w":0,"h":0},"tag":"tally--16"},"tally--17":{"id":1456,"w":16,"h":8,"cels":[{"x":80,"y":232}],"hitbox":{"x":0,"y":0,"w":0,"h":0},"tag":"tally--17"},"tally--18":{"id":1472,"w":16,"h":8,"cels":[{"x":96,"y":232}],"hitbox":{"x":0,"y":0,"w":0,"h":0},"tag":"tally--18"},"tally--19":{"id":1488,"w":16,"h":8,"cels":[{"x":112,"y":232}],"hitbox":{"x":0,"y":0,"w":0,"h":0},"tag":"tally--19"},"tally--20":{"id":1504,"w":16,"h":8,"cels":[{"x":112,"y":224}],"hitbox":{"x":0,"y":0,"w":0,"h":0},"tag":"tally--20"}}
+// https://deno.land/std@0.192.0/collections/map_entries.ts
+function mapEntries(record, transformer) {
+  const ret = {};
+  const entries = Object.entries(record);
+  for (const entry of entries) {
+    const [mappedKey, mappedValue] = transformer(entry);
+    ret[mappedKey] = mappedValue;
+  }
+  return ret;
+}
+
+// https://deno.land/x/solitaire@v0.0.9/src/utils/inverse.ts
+function Inverse(obj) {
+  return mapEntries(
+    obj,
+    ([key, val]) => [val, key]
+  );
+}
+
+// https://deno.land/x/solitaire@v0.0.9/src/card/rank.ts
+var RankSet = /* @__PURE__ */ new Set(
+  [
+    "Ace",
+    "Two",
+    "Three",
+    "Four",
+    "Five",
+    "Six",
+    "Seven",
+    "Eight",
+    "Nine",
+    "Ten",
+    "Jack",
+    "Queen",
+    "King"
+  ]
+);
+var rankToOrder = [...RankSet].reduce(
+  (order, value, index) => ({ ...order, [value]: index }),
+  {}
+);
+var rankToPoint = {
+  Ace: 1,
+  Two: 2,
+  Three: 3,
+  Four: 4,
+  Five: 5,
+  Six: 6,
+  Seven: 7,
+  Eight: 8,
+  Nine: 9,
+  Ten: 10,
+  Jack: 11,
+  Queen: 13,
+  King: 14
+};
+var rankFromPoint = Inverse(
+  rankToPoint
+);
+var rankToASCII = {
+  Ace: "A",
+  Two: "2",
+  Three: "3",
+  Four: "4",
+  Five: "5",
+  Six: "6",
+  Seven: "7",
+  Eight: "8",
+  Nine: "9",
+  Ten: "10",
+  Jack: "J",
+  Queen: "Q",
+  King: "K"
+};
+
+// https://deno.land/x/solitaire@v0.0.9/src/card/suit.ts
+var SuitSet = /* @__PURE__ */ new Set(
+  ["Clubs", "Diamonds", "Hearts", "Spades"]
+);
+var suitToOrder = [...SuitSet].reduce(
+  (order, value, index) => ({ ...order, [value]: index }),
+  {}
+);
+var suitFromOrder = Inverse(
+  suitToOrder
+);
+var suitToColor = {
+  Clubs: "Black",
+  Diamonds: "Red",
+  Hearts: "Red",
+  Spades: "Black"
+};
+var suitToASCII = {
+  Clubs: "C",
+  Diamonds: "D",
+  Hearts: "H",
+  Spades: "S"
+};
+
+// https://deno.land/x/solitaire@v0.0.9/src/card/card.ts
+var unicode = { rangeStart: 127136, rankSize: 16, suitMax: 3 };
+function cardSucceeds(succeeds3, ...cards) {
+  if (cards.length === 0)
+    return succeeds3(void 0, void 0);
+  for (let index = 0; index <= cards.length - 1; index++) {
+    if (!succeeds3(cards[index], cards[index + 1]))
+      return false;
+  }
+  return true;
+}
+function cardToASCII(card) {
+  return `${suitToASCII[card.suit]}${rankToASCII[card.rank]}`;
+}
+function cardToString(visibility, ...cards) {
+  return cards.reduce((str, card) => str + _cardToString(visibility, card), "");
+}
+function _cardToString(visibility, card) {
+  if (visibility === "Directed" && card.direction === "Down")
+    return "\u{1F0A0}";
+  const point = unicode.rangeStart + (unicode.suitMax - suitToOrder[card.suit]) * unicode.rankSize + rankToPoint[card.rank];
+  return String.fromCodePoint(point);
+}
+
+// https://deno.land/x/solitaire@v0.0.9/src/utils/card-pile.ts
+function newDeck(direction = "Down") {
+  const deck = [];
+  for (const suit of SuitSet) {
+    for (const rank of RankSet)
+      deck.push({ suit, rank, direction });
+  }
+  return deck;
+}
+
+// https://deno.land/x/solitaire@v0.0.9/src/layout/foundation.ts
+function Foundation() {
+  return [[], [], [], []];
+}
+var succeeds = (lhs, rhs) => {
+  if (lhs?.direction === "Down" || rhs?.direction === "Down")
+    return false;
+  if (rhs == null)
+    return lhs != null;
+  if (lhs == null)
+    return rhs.rank === "Ace";
+  if (lhs.suit !== rhs.suit)
+    return false;
+  return rankToOrder[lhs.rank] + 1 === rankToOrder[rhs.rank];
+};
+var suitToIndex = {
+  Clubs: 0,
+  Diamonds: 1,
+  Hearts: 2,
+  Spades: 3
+};
+function foundationBuild(self, cards) {
+  const card = cards[0];
+  if (card == null || !foundationIsBuildable(self, cards))
+    return;
+  foundationGetPillar(self, card.suit).push(...cards.splice(0));
+}
+function foundationGetPillar(self, suit) {
+  return self[suitToIndex[suit]];
+}
+function foundationIsBuildable(self, cards) {
+  const card = cards[0];
+  if (card == null || !cardSucceeds(succeeds, ...cards))
+    return false;
+  return succeeds(foundationGetPillar(self, card.suit).at(-1), card);
+}
+function foundationSelect(self, card) {
+  for (const [index, foundation] of self.entries()) {
+    const y = foundation.indexOf(card);
+    if (y === -1)
+      continue;
+    return {
+      cards: foundation.splice(y),
+      pile: "Foundation",
+      xy: { x: index, y }
+    };
+  }
+}
+function foundationIsBuilt(self) {
+  return foundationIsPillarBuilt(...Object.values(self));
+}
+function foundationIsPillarBuilt(...pillars) {
+  return pillars.every((pillar) => pillar.at(-1)?.rank === "King");
+}
+
+// https://deno.land/x/solitaire@v0.0.9/src/layout/tableau.ts
+function Tableau(lanes) {
+  if (lanes <= 0) {
+    throw Error(`tableau size must be greater than zero but was ${lanes}`);
+  }
+  const tableau = [];
+  for (let i = 0; i < lanes; i++)
+    tableau.push([]);
+  return tableau;
+}
+var succeeds2 = (lhs, rhs) => {
+  if (lhs?.direction === "Down" || rhs?.direction === "Down")
+    return false;
+  if (rhs == null)
+    return lhs != null;
+  if (lhs == null)
+    return rhs.rank === "King";
+  return suitToColor[lhs.suit] !== suitToColor[rhs.suit] && rankToOrder[lhs.rank] === rankToOrder[rhs.rank] + 1;
+};
+function tableauDeal(self, stock) {
+  for (const [index, lane] of self.entries()) {
+    if (lane.length !== 0)
+      throw Error("tableau must be reset before dealt");
+    const cards = stock.splice(-index - 1);
+    for (const card of cards)
+      card.direction = "Down";
+    lane.push(...cards);
+  }
+}
+function tableauBuild(lane, cards) {
+  if (!tableauIsBuildable(lane, cards))
+    return;
+  lane.push(...cards.splice(0));
+}
+function tableauSelect(self, card) {
+  for (const [x, lane] of self.entries()) {
+    const y = lane.indexOf(card);
+    if (y === -1)
+      continue;
+    return { cards: lane.splice(y), pile: "Tableau", xy: { x, y } };
+  }
+}
+function tableauIsBuildable(lane, cards) {
+  if (!cardSucceeds(succeeds2, ...cards))
+    return false;
+  return succeeds2(lane.at(-1), cards[0]);
+}
+
+// https://deno.land/x/solitaire@v0.0.9/src/solitaire.ts
+function Solitaire(random, wins, drawSize, tableauSize) {
+  drawSize ??= 3;
+  random ??= Math.random;
+  tableauSize ??= 7;
+  const stock = newDeck();
+  shuffle(stock, random);
+  const self = {
+    drawSize,
+    foundation: Foundation(),
+    stock,
+    tableau: Tableau(tableauSize),
+    waste: [],
+    random,
+    tableauSize,
+    wins: wins ?? 0
+  };
+  tableauDeal(self.tableau, stock);
+  return self;
+}
+function solitaireReset(self) {
+  if (solitaireIsWon(self))
+    self.wins++;
+  for (const pillar of self.foundation)
+    self.stock.push(...pillar.splice(0));
+  for (const lane of self.tableau)
+    self.stock.push(...lane.splice(0));
+  self.stock.push(...self.waste.splice(0));
+  for (const card of self.stock)
+    card.direction = "Down";
+  shuffle(self.stock, self.random);
+  tableauDeal(self.tableau, self.stock);
+}
+function solitairePoint(self, card) {
+  solitaireDeselect(self);
+  const stockY = self.stock.indexOf(card);
+  if (stockY !== -1) {
+    if (stockY !== self.stock.length - 1)
+      return;
+    const y = Math.max(0, stockY - (self.drawSize - 1));
+    const cards2 = self.stock.splice(y).reverse();
+    for (const card2 of cards2)
+      card2.direction = "Up";
+    self.waste.push(...cards2);
+    return;
+  }
+  const wasteY = self.waste.indexOf(card);
+  if (wasteY !== -1) {
+    self.selected = {
+      cards: self.waste.splice(wasteY),
+      pile: "Waste",
+      xy: { x: 0, y: wasteY }
+    };
+    return self.selected;
+  }
+  const selected = foundationSelect(self.foundation, card) ?? tableauSelect(self.tableau, card);
+  if (selected == null) {
+    throw Error(`missing card ${cardToString("Undirected", card)}`);
+  }
+  self.selected = selected;
+  const { cards } = self.selected;
+  if (cards.length === 1 && cards[0]?.direction === "Down") {
+    cards[0].direction = "Up";
+    solitaireDeselect(self);
+  }
+  return self.selected;
+}
+function solitaireDeal(self) {
+  solitaireDeselect(self);
+  if (self.stock.length > 0)
+    return;
+  const waste = self.waste.splice(0).reverse();
+  for (const card of waste)
+    card.direction = "Down";
+  self.stock.push(...waste);
+}
+function solitaireIsBuildable(self, at) {
+  if (self.selected == null)
+    return false;
+  if (at.type === "Foundation") {
+    return foundationIsBuildable(
+      self.foundation,
+      self.selected.cards
+    );
+  }
+  const lane = self.tableau[at.x];
+  if (lane == null)
+    throw Error(`missing lane at index ${at.x}`);
+  return tableauIsBuildable(lane, self.selected.cards);
+}
+function solitaireIsWon(self) {
+  return foundationIsBuilt(self.foundation);
+}
+function solitaireBuild(self, at) {
+  if (self.selected == null)
+    return;
+  if (at.type === "Foundation") {
+    foundationBuild(self.foundation, self.selected.cards);
+  } else {
+    const lane = self.tableau[at.x];
+    if (lane == null)
+      throw Error(`missing lane at index ${at.x}`);
+    tableauBuild(lane, self.selected.cards);
+  }
+  if (self.selected.cards.length !== 0)
+    return;
+  delete self.selected;
+}
+function solitaireDeselect(self) {
+  if (self.selected == null)
+    return;
+  const pile = self.selected.pile === "Waste" ? self.waste : self[uncapitalize(self.selected.pile)][self.selected.xy.x];
+  pile.push(...self.selected.cards);
+  delete self.selected;
+}
+function shuffle(self, random) {
+  for (let i = self.length - 1; i >= 0; i--) {
+    swapIndices(self, i, Math.trunc(random() * (i + 1)));
+  }
+}
+function swapIndices(self, left, right) {
+  [self[left], self[right]] = [self[right], self[left]];
+}
+function uncapitalize(str) {
+  if (str[0] == null)
+    return str;
+  return `${str[0].toLocaleLowerCase()}${str.slice(1)}`;
+}
+
+// https://deno.land/x/oid@v0.0.11/src/audio/synth.ts
+var Synth = class {
+  #context;
+  beep(type, startHz, endHz, duration) {
+    this.#context ??= new AudioContext();
+    const now = this.#context.currentTime;
+    const end = now + duration;
+    const oscillator = this.#context.createOscillator();
+    oscillator.type = type;
+    oscillator.frequency.setValueAtTime(startHz, now);
+    oscillator.frequency.exponentialRampToValueAtTime(endHz, end);
+    const gain = this.#context.createGain();
+    gain.gain.setValueAtTime(1, now);
+    gain.gain.exponentialRampToValueAtTime(0.01, end);
+    oscillator.connect(gain);
+    gain.connect(this.#context.destination);
+    oscillator.start();
+    oscillator.stop(end);
+  }
+};
+
+// https://deno.land/x/oid@v0.0.11/src/graphics/bitmap.ts
+var BitmapBuffer = class {
+  buffer;
+  size = 0;
+  constructor(capacity) {
+    this.buffer = new Uint32Array(capacity * 3);
+  }
+  push(bmp) {
+    this.buffer[this.size * 3] = bmp._xy;
+    this.buffer[this.size * 3 + 1] = bmp._wh;
+    this.buffer[this.size * 3 + 2] = bmp._iffzz;
+    this.size++;
+  }
+};
+
+// https://deno.land/x/oid@v0.0.11/src/graphics/cam.ts
+var Cam = class {
+  minWH = { w: 256, h: 256 };
+  minScale = 1;
+  x = 0;
+  y = 0;
+  lvl = { x: -4096, y: -4096, w: 8191, h: 8191 };
+  #clientWH = { w: 1, h: 1 };
+  #scale = 1;
+  #w = this.minWH.w;
+  #h = this.minWH.h;
+  get h() {
+    return this.#h;
+  }
+  /** Fill or just barely not fill the viewport in scaled pixels. */
+  resize(zoomOut) {
+    this.#clientWH.w = innerWidth;
+    this.#clientWH.h = innerHeight;
+    const nativeW = Math.round(this.#clientWH.w * devicePixelRatio);
+    const nativeH = Math.round(this.#clientWH.h * devicePixelRatio);
+    this.#scale = Math.max(
+      this.minScale,
+      Math.floor(Math.min(nativeW / this.minWH.w, nativeH / this.minWH.h)) - (zoomOut ?? 0)
+      // Default is to zoom in as much as possible.
+    );
+    this.#w = Math.floor(nativeW / this.#scale);
+    this.#h = Math.floor(nativeH / this.#scale);
+  }
+  get scale() {
+    return this.#scale;
+  }
+  /** Returns the integral position in level coordinates. */
+  toLevelXY(clientXY) {
+    return {
+      x: Math.round(this.x + clientXY.x / this.#clientWH.w * this.#w),
+      y: Math.round(this.y + clientXY.y / this.#clientWH.h * this.#h)
+    };
+  }
+  get w() {
+    return this.#w;
+  }
+};
+
+// https://deno.land/x/oid@v0.0.11/src/graphics/frame-listener.ts
+var FrameListener = class {
+  /** The running lifetime in milliseconds. */
+  age = 0;
+  /** The exact duration in milliseconds to apply on a given update step. */
+  tick = 0;
+  #canvas;
+  #frame;
+  #loop;
+  #time;
+  #input;
+  #renderer;
+  constructor(canvas, input, renderer) {
+    this.#canvas = canvas;
+    this.#input = input;
+    this.#renderer = renderer;
+  }
+  cancel() {
+    if (this.#frame != null)
+      cancelAnimationFrame(this.#frame);
+    this.#frame = void 0;
+    this.tick = 0;
+    this.#time = void 0;
+    this.#input.reset();
+    this.#loop = void 0;
+  }
+  get frame() {
+    return Math.trunc(this.age / 16.666666666666668);
+  }
+  register(op) {
+    const fn = `${op}EventListener`;
+    for (const type of ["webglcontextrestored", "webglcontextlost"]) {
+      this.#canvas[fn](type, this.#onEvent);
+    }
+    globalThis[fn]("visibilitychange", this.#onEvent);
+    if (op === "add")
+      this.#renderer.initGL();
+    this.#input.register(op);
+  }
+  render(cam, buffer, loop2) {
+    this.#loop = loop2;
+    if (!this.#isVisible() || !this.#renderer.hasContext())
+      return;
+    if (this.#loop)
+      this.#frame ??= requestAnimationFrame(this.#onFrame);
+    this.#renderer.render(cam, this.frame, buffer);
+  }
+  #isVisible() {
+    return document.visibilityState === "visible";
+  }
+  #onEvent = (event) => {
+    event.preventDefault();
+    if (event.type === "webglcontextrestored")
+      this.#renderer.initGL();
+    if (this.#renderer.hasContext() && this.#isVisible()) {
+      if (this.#loop)
+        this.#frame ??= requestAnimationFrame(this.#onFrame);
+    } else {
+      if (this.#frame != null)
+        cancelAnimationFrame(this.#frame);
+      this.#frame = void 0;
+      this.tick = 0;
+      this.#time = void 0;
+      this.#input.reset();
+    }
+  };
+  #onFrame = (time) => {
+    this.#frame = void 0;
+    this.tick = time - (this.#time ?? time);
+    this.#time = time;
+    this.age += this.tick;
+    const loop2 = this.#loop;
+    this.#loop = void 0;
+    this.#input.poll(this.tick);
+    loop2?.();
+  };
+};
+
+// https://deno.land/x/oid@v0.0.11/src/types/nonnull.ts
+function NonNull(val, msg) {
+  if (val == null)
+    throw Error(msg ?? "expected nonnull");
+  return val;
+}
+
+// https://deno.land/x/oid@v0.0.11/src/atlas/atlas.ts
+var maxAnimCels = 16;
+
+// https://deno.land/x/oid@v0.0.11/src/graphics/frag.glsl.ts
+var fragGLSL = `#version 300 es
+uniform mediump sampler2D uSpritesheet;
+uniform mediump uvec2 uSpritesheetSize;
+
+flat in highp ivec4 vTexXYWH;
+in highp vec2 vDstWH;
+
+out highp vec4 oFrag;
+
+void main() {
+  highp vec2 px = vec2(vTexXYWH.xy) + mod(vDstWH, vec2(vTexXYWH.zw));
+  oFrag = texture(uSpritesheet, px / vec2(uSpritesheetSize));
+  if(oFrag.a < 1.) discard;
+}`;
+
+// https://deno.land/x/oid@v0.0.11/src/graphics/vert.glsl.ts
+var vertGLSL = `#version 300 es
+// https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/WebGL_best_practices#essl300_minimum_requirements_webgl_2
+uniform lowp usampler2D uCels;
+uniform mediump ivec4 uCam;
+uniform highp uint uFrame;
+
+layout (location=0) in lowp ivec2 iUV;
+layout (location=1) in highp uint iXY;
+layout (location=2) in highp uint iWH;
+layout (location=3) in highp uint iIFFZZ;
+
+flat out highp ivec4 vTexXYWH;
+out highp vec2 vDstWH;
+
+const mediump int maxY = 0x1000;
+const lowp int maxZ = 8;
+const mediump int maxDepth = maxY * maxZ;
+
+void main() {
+  mediump int x = int(iXY) >> 19;
+  mediump int y = int(iXY << 16) >> 19;
+  lowp int z = int(iIFFZZ & 0x7u);
+  bool zend = bool(iIFFZZ & 0x8u);
+  bool flipX = bool(iIFFZZ & 0x20u);
+  bool flipY = bool(iIFFZZ & 0x10u);
+  mediump int id = int((iIFFZZ >> 6) & 0x7ff0u);
+  lowp int cel = int((iIFFZZ >> 6) & 0xfu);
+  mediump int w = int((iWH >> 12) & 0xfffu);
+  mediump int h = int(iWH & 0xfffu);
+
+  lowp int frame = ((int(uFrame) - cel) / 4) & 0xf;
+  mediump uvec4 texXYWH = texelFetch(uCels, ivec2(0, id + frame), 0);
+
+  // https://www.patternsgameprog.com/opengl-2d-facade-25-get-the-z-of-a-pixel
+  highp float depth = float((z + 1) * maxY - (y + (zend ? 0 : h))) / float(maxDepth);
+
+  highp ivec2 targetWH = ivec2(iUV) * ivec2(w, h);
+  highp ivec2 origWH = ivec2(iUV) * ivec2(texXYWH.zw);
+
+  highp vec2 end = vec2(x + targetWH.x, y + targetWH.y);
+  highp vec2 clip =  ((-2. * vec2(uCam.xy)  + 2. * end) / vec2(uCam.zw) - 1.) * vec2(1, -1);
+  gl_Position = vec4(clip, depth, 1);
+  vTexXYWH = ivec4(texXYWH);
+  vDstWH = vec2(targetWH * ivec2(flipX ? -1 : 1, flipY ? -1 : 1));
+}`;
+
+// https://deno.land/x/oid@v0.0.11/src/graphics/renderer.ts
+var uv = new Int8Array([1, 1, 0, 1, 1, 0, 0, 0]);
+var Renderer = class {
+  #bmpBuffer = null;
+  #canvas;
+  #cels;
+  #gl;
+  #loseContext = null;
+  #spritesheet;
+  #uniforms = {};
+  #vertArray = null;
+  constructor(atlas2, canvas, spritesheet) {
+    this.#canvas = canvas;
+    this.#spritesheet = spritesheet;
+    this.#cels = new Uint16Array(newCels(atlas2));
+  }
+  clearColor(rgba) {
+    this.#gl.clearColor(
+      (rgba >>> 24 & 255) / 255,
+      (rgba >>> 16 & 255) / 255,
+      (rgba >>> 8 & 255) / 255,
+      (rgba >>> 0 & 255) / 255
+    );
+  }
+  initGL() {
+    const gl = NonNull(
+      this.#canvas.getContext("webgl2", {
+        antialias: false,
+        desynchronized: true,
+        // breaks render stats
+        powerPreference: "high-performance"
+      }),
+      "WebGL v2 unsupported"
+    );
+    this.#gl = gl;
+    gl.enable(gl.BLEND);
+    gl.blendFunc(gl.SRC_ALPHA, gl.ONE_MINUS_SRC_ALPHA);
+    gl.enable(gl.DEPTH_TEST);
+    gl.depthRange(0, 1);
+    gl.clearDepth(1);
+    gl.depthFunc(gl.LESS);
+    gl.pixelStorei(gl.UNPACK_COLORSPACE_CONVERSION_WEBGL, false);
+    const pgm = loadProgram(gl, vertGLSL, fragGLSL);
+    this.#uniforms = getUniformLocations(gl, pgm);
+    gl.uniform2ui(
+      this.#uniforms.uSpritesheetSize,
+      this.#spritesheet.naturalWidth,
+      this.#spritesheet.naturalHeight
+    );
+    this.#vertArray = gl.createVertexArray();
+    gl.bindVertexArray(this.#vertArray);
+    const uvBuffer = gl.createBuffer();
+    gl.bindBuffer(gl.ARRAY_BUFFER, uvBuffer);
+    gl.enableVertexAttribArray(0);
+    gl.vertexAttribIPointer(0, 2, gl.BYTE, 0, 0);
+    gl.bindBuffer(gl.ARRAY_BUFFER, null);
+    this.#bmpBuffer = gl.createBuffer();
+    gl.bindBuffer(gl.ARRAY_BUFFER, this.#bmpBuffer);
+    gl.enableVertexAttribArray(1);
+    gl.vertexAttribIPointer(1, 1, gl.UNSIGNED_INT, 12, 0);
+    gl.vertexAttribDivisor(1, 1);
+    gl.enableVertexAttribArray(2);
+    gl.vertexAttribIPointer(2, 1, gl.UNSIGNED_INT, 12, 4);
+    gl.vertexAttribDivisor(2, 1);
+    gl.enableVertexAttribArray(3);
+    gl.vertexAttribIPointer(3, 1, gl.UNSIGNED_INT, 12, 8);
+    gl.vertexAttribDivisor(3, 1);
+    gl.bindBuffer(gl.ARRAY_BUFFER, null);
+    gl.bindVertexArray(null);
+    gl.bindBuffer(gl.ARRAY_BUFFER, uvBuffer);
+    gl.bufferData(gl.ARRAY_BUFFER, uv, gl.STATIC_DRAW);
+    gl.bindBuffer(this.#gl.ARRAY_BUFFER, null);
+    gl.uniform1i(this.#uniforms.uCels, 0);
+    gl.activeTexture(gl.TEXTURE0);
+    const dataTex = gl.createTexture();
+    gl.bindTexture(gl.TEXTURE_2D, dataTex);
+    gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.NEAREST);
+    gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.NEAREST);
+    gl.texImage2D(
+      gl.TEXTURE_2D,
+      0,
+      gl.RGBA16UI,
+      1,
+      this.#cels.length / 4,
+      // 4 u8s per row
+      0,
+      gl.RGBA_INTEGER,
+      gl.UNSIGNED_SHORT,
+      this.#cels
+    );
+    gl.uniform1i(this.#uniforms.uSpritesheet, 1);
+    gl.activeTexture(gl.TEXTURE1);
+    const spritesheetTex = gl.createTexture();
+    gl.bindTexture(gl.TEXTURE_2D, spritesheetTex);
+    gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.NEAREST);
+    gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.NEAREST);
+    gl.texImage2D(
+      gl.TEXTURE_2D,
+      0,
+      gl.RGBA,
+      gl.RGBA,
+      gl.UNSIGNED_BYTE,
+      this.#spritesheet
+    );
+    this.#loseContext = gl.getExtension("WEBGL_lose_context");
+  }
+  get loseContext() {
+    return this.#loseContext;
+  }
+  hasContext() {
+    return !this.#gl.isContextLost();
+  }
+  render(cam, frame, bmps) {
+    this.#resize(cam);
+    this.#gl.clear(this.#gl.COLOR_BUFFER_BIT | this.#gl.DEPTH_BUFFER_BIT);
+    this.#gl.uniform4i(this.#uniforms.uCam, cam.x, cam.y, cam.w, cam.h);
+    this.#gl.uniform1ui(this.#uniforms.uFrame, frame);
+    this.#gl.bindVertexArray(this.#vertArray);
+    this.#gl.bindBuffer(this.#gl.ARRAY_BUFFER, this.#bmpBuffer);
+    this.#gl.bufferData(
+      this.#gl.ARRAY_BUFFER,
+      bmps.buffer,
+      this.#gl.STREAM_DRAW
+    );
+    this.#gl.bindBuffer(this.#gl.ARRAY_BUFFER, null);
+    this.#gl.drawArraysInstanced(
+      this.#gl.TRIANGLE_STRIP,
+      0,
+      uv.length / 2,
+      // d
+      bmps.size
+    );
+    this.#gl.bindVertexArray(null);
+  }
+  #resize(cam) {
+    const canvas = this.#canvas;
+    const nativeWH = { w: cam.w * cam.scale, h: cam.h * cam.scale };
+    if (canvas.width !== nativeWH.w || canvas.height !== nativeWH.h) {
+      canvas.width = nativeWH.w;
+      canvas.height = nativeWH.h;
+      this.#gl.viewport(0, 0, nativeWH.w, nativeWH.h);
+    }
+    const clientW = nativeWH.w / devicePixelRatio;
+    const clientH = nativeWH.h / devicePixelRatio;
+    const diffW = Number.parseFloat(canvas.style.width.slice(0, -2)) - clientW;
+    const diffH = Number.parseFloat(canvas.style.height.slice(0, -2)) - clientH;
+    if (!Number.isFinite(diffW) || Math.abs(diffW) >= 0.5 || !Number.isFinite(diffH) || Math.abs(diffH) >= 0.5) {
+      canvas.style.width = `${clientW}px`;
+      canvas.style.height = `${clientH}px`;
+    }
+  }
+};
+function compileShader(gl, type, src) {
+  const shader = NonNull(gl.createShader(type), "shader creation failed");
+  gl.shaderSource(shader, src.trim());
+  gl.compileShader(shader);
+  const log = gl.getShaderInfoLog(shader)?.slice(0, -1);
+  if (log)
+    console.warn(log);
+  return shader;
+}
+function getUniformLocations(gl, pgm) {
+  if (!pgm)
+    return {};
+  const len = gl.getProgramParameter(pgm, gl.ACTIVE_UNIFORMS);
+  const locations = {};
+  for (let i = 0; i < len; ++i) {
+    const uniform = gl.getActiveUniform(pgm, i);
+    if (uniform == null)
+      throw Error(`missing shader uniform at index ${i}`);
+    locations[uniform.name] = gl.getUniformLocation(pgm, uniform.name);
+  }
+  return locations;
+}
+function loadProgram(gl, vertGLSL2, fragGLSL2) {
+  const pgm = gl.createProgram();
+  if (!pgm)
+    return null;
+  const vert = compileShader(gl, gl.VERTEX_SHADER, vertGLSL2);
+  const frag = compileShader(gl, gl.FRAGMENT_SHADER, fragGLSL2);
+  gl.attachShader(pgm, vert);
+  gl.attachShader(pgm, frag);
+  gl.linkProgram(pgm);
+  gl.useProgram(pgm);
+  const log = gl.getProgramInfoLog(pgm)?.slice(0, -1);
+  if (log)
+    console.warn(log);
+  gl.detachShader(pgm, frag);
+  gl.detachShader(pgm, vert);
+  gl.deleteShader(frag);
+  gl.deleteShader(vert);
+  return pgm;
+}
+function newCels(atlas2) {
+  const cels = [];
+  for (const anim of Object.values(atlas2)) {
+    for (const cel of anim.cels)
+      cels.push(cel.x, cel.y, anim.w, anim.h);
+    for (let i = anim.cels.length; i < maxAnimCels; i++) {
+      const cel = anim.cels[i % anim.cels.length];
+      cels.push(cel.x, cel.y, anim.w, anim.h);
+    }
+  }
+  return cels;
+}
+
+// https://deno.land/x/oid@v0.0.11/src/input/gamepad-poller.ts
+var GamepadPoller = class {
+  #bits = 0;
+  #bitByAxis = {};
+  #bitByButton = {};
+  get bits() {
+    return this.#bits;
+  }
+  mapAxis(axis, lessBit, moreBit) {
+    this.#bitByAxis[axis] = [lessBit, moreBit];
+  }
+  mapButton(button, bit) {
+    this.#bitByButton[button] = bit;
+  }
+  poll() {
+    if (!isSecureContext)
+      return;
+    this.#bits = 0;
+    for (const pad of navigator.getGamepads()) {
+      for (const [index, axis] of pad?.axes.entries() ?? []) {
+        const bits = this.#bitByAxis[index];
+        if (bits == null)
+          continue;
+        const bit = axis < 0 ? bits[0] : axis === 0 ? 0 : bits[1];
+        this.#bits |= Math.abs(axis) >= 0.5 ? bit : 0;
+      }
+      for (const [index, button] of pad?.buttons.entries() ?? []) {
+        const bit = this.#bitByButton[index];
+        if (bit == null)
+          continue;
+        this.#bits |= button.pressed ? bit : 0;
+      }
+    }
+  }
+  reset() {
+    this.#bits = 0;
+  }
+};
+
+// https://deno.land/x/oid@v0.0.11/src/input/keyboard-poller.ts
+var KeyboardPoller = class {
+  #bits = 0;
+  #bitByKey = {};
+  get bits() {
+    return this.#bits;
+  }
+  map(key, bit) {
+    this.#bitByKey[key] = bit;
+  }
+  register(op) {
+    const fn = `${op}EventListener`;
+    globalThis[fn]("blur", this.reset, { capture: true, passive: true });
+    for (const type of ["keydown", "keyup"]) {
+      const callback = this.#onKey;
+      globalThis[fn](type, callback, { capture: true, passive: true });
+    }
+  }
+  reset = () => {
+    this.#bits = 0;
+  };
+  #onKey = (ev) => {
+    const on = ev.type === "keydown";
+    const bit = this.#bitByKey[ev.key];
+    if (bit == null)
+      return;
+    this.#bits = on ? this.#bits | bit : this.#bits & ~bit;
+  };
+};
+
+// https://deno.land/x/oid@v0.0.11/src/input/pointer-poller.ts
+var PointerPoller = class {
+  #bitByButton = {};
+  #bits = 0;
+  #cam;
+  #canvas;
+  #clientXY = { x: 0, y: 0 };
+  #pointerType;
+  #xy;
+  constructor(cam, canvas) {
+    this.#cam = cam;
+    this.#canvas = canvas;
+  }
+  get bits() {
+    return this.#bits;
+  }
+  map(button, bit) {
+    this.#bitByButton[button] = bit;
+  }
+  get pointerType() {
+    return this.#pointerType;
+  }
+  register(op) {
+    const fn = `${op}EventListener`;
+    this.#canvas[fn]("pointercancel", this.reset, {
+      capture: true,
+      passive: true
+    });
+    for (const type of ["pointerdown", "pointermove", "pointerup"]) {
+      this.#canvas[fn](
+        type,
+        this.#onPointEvent,
+        { capture: true, passive: type !== "pointerdown" }
+      );
+    }
+    this.#canvas[fn]("contextmenu", this.#onContextMenuEvent, { capture: true });
+  }
+  reset = () => {
+    this.#bits = 0;
+    this.#pointerType = void 0;
+    this.#xy = void 0;
+  };
+  get xy() {
+    return this.#xy;
+  }
+  get #locked() {
+    return document.pointerLockElement === this.#canvas;
+  }
+  #onContextMenuEvent = (ev) => ev.preventDefault();
+  #onPointEvent = (ev) => {
+    if (ev.pointerType === "mouse" && ev.type === "pointerdown" && !this.#locked)
+      this.#canvas.requestPointerLock();
+    else if (ev.pointerType !== "mouse" && this.#locked) {
+      document.exitPointerLock();
+    }
+    if (!ev.isPrimary)
+      return;
+    if (this.#locked) {
+      this.#clientXY.x = Math.min(
+        Math.max(this.#clientXY.x + ev.movementX, 0),
+        innerWidth
+      );
+      this.#clientXY.y = Math.min(
+        Math.max(this.#clientXY.y + ev.movementY, 0),
+        innerHeight
+      );
+    } else
+      ({ clientX: this.#clientXY.x, clientY: this.#clientXY.y } = ev);
+    this.#bits = this.#evButtonsToBits(ev.buttons);
+    this.#pointerType = ["mouse", "touch", "pen"].filter(
+      (type) => type === ev.pointerType
+    )[0];
+    this.#xy = this.#cam.toLevelXY(this.#clientXY);
+    const passive = ev.type !== "pointerdown";
+    if (!passive)
+      ev.preventDefault();
+  };
+  #evButtonsToBits(buttons) {
+    let bits = 0;
+    for (let button = 1; button <= buttons; button <<= 1) {
+      if ((button & buttons) !== button)
+        continue;
+      bits |= this.#bitByButton[button] ?? 0;
+    }
+    return bits;
+  }
+};
+
+// https://deno.land/x/oid@v0.0.11/src/input/input.ts
+var Input = class {
+  handled = false;
+  /** The maximum duration in milliseconds permitted between combo inputs. */
+  maxInterval = 300;
+  /** The minimum duration in milliseconds for an input to be considered held. */
+  minHeld = 300;
+  /** The time in milliseconds since the input changed. */
+  #duration = 0;
+  /** Prior button state, possibly 0, but not necessarily a combo member. */
+  #prevBits = 0;
+  /**
+   * A sequence of nonzero buttons ordered from oldest (first) to latest (last).
+   * Combos are terminated only by expiration.
+   */
+  #combo = [];
+  /** Logical button to bit. */
+  #bitByButton = {};
+  #gamepad = new GamepadPoller();
+  #keyboard = new KeyboardPoller();
+  #pointer;
+  #pollBits = 0;
+  #pollTick = 0;
+  constructor(cam, canvas) {
+    this.#pointer = new PointerPoller(cam, canvas);
+  }
+  /**
+   * Combos are interpreted exactly both in buttons pressed per tick (eg, up
+   * will not match up and down the way `isOn('Up')` will) and sequence (order
+   * and length). Combos only test button on state.
+   */
+  isCombo(...combo) {
+    if (combo.length !== this.#combo.length)
+      return false;
+    for (const [i, buttons] of combo.entries()) {
+      const bits = this.#buttonsToBits(buttons);
+      if (this.#combo[i] !== bits)
+        return false;
+    }
+    return this.#combo[combo.length - 1] === this.#bits;
+  }
+  /** Like isOnCombo() but test if the last button set is triggered. */
+  isComboStart(...combo) {
+    return this.isCombo(...combo) && !!combo.at(-1)?.every((button) => this.isOnStart(button));
+  }
+  /** True if held on or off. */
+  isHeld() {
+    return this.#duration >= this.minHeld;
+  }
+  isOffStart(...buttons) {
+    return !this.isOn(...buttons) && this.isStart(...buttons);
+  }
+  /**
+   * Test if all buttons are on. True if the buttons are pressed regardless of
+   * whether other buttons are pressed. Eg, `isOn('Up')` will return true when
+   * up is pressed or when up and down are pressed.
+   */
+  isOn(...buttons) {
+    const bits = this.#buttonsToBits(buttons);
+    return (this.#bits & bits) === bits;
+  }
+  isOnStart(...buttons) {
+    return this.isOn(...buttons) && this.isStart(...buttons);
+  }
+  /** True if triggered on or off. */
+  isStart(...buttons) {
+    const bits = this.#buttonsToBits(buttons);
+    return (this.#bits & bits) !== (this.#prevBits & bits);
+  }
+  mapAxis(less, more, ...axes) {
+    for (const axis of axes) {
+      this.#gamepad.mapAxis(axis, this.#map(less), this.#map(more));
+    }
+  }
+  mapButton(button, ...indices) {
+    for (const index of indices) {
+      this.#gamepad.mapButton(index, this.#map(button));
+    }
+  }
+  mapClick(button, ...clicks) {
+    for (const click of clicks)
+      this.#pointer.map(click, this.#map(button));
+  }
+  mapStandard() {
+    this.mapKey("L", "ArrowLeft", "a");
+    this.mapKey("R", "ArrowRight", "d");
+    this.mapKey("U", "ArrowUp", "w");
+    this.mapKey("D", "ArrowDown", "s");
+    this.mapKey("C", "z");
+    this.mapKey("B", "x");
+    this.mapKey("A", "c");
+    this.mapKey("S", "Enter", "Escape");
+    this.mapAxis("L", "R", 0, 2);
+    this.mapAxis("U", "D", 1, 3);
+    this.mapButton("L", 14);
+    this.mapButton("R", 15);
+    this.mapButton("U", 12);
+    this.mapButton("D", 13);
+    this.mapButton("A", 0);
+    this.mapButton("S", 9);
+    this.mapClick("A", 1);
+  }
+  mapKey(button, ...keys) {
+    for (const key of keys)
+      this.#keyboard.map(key, this.#map(button));
+  }
+  get point() {
+    return this.#pointer.xy;
+  }
+  get pointType() {
+    return this.#pointer.pointerType;
+  }
+  poll(tick) {
+    this.handled = false;
+    this.#duration += this.#pollTick;
+    this.#prevBits = this.#pollBits;
+    this.#gamepad.poll();
+    if (this.#duration > this.maxInterval && (this.#bits === 0 || this.#bits !== this.#prevBits)) {
+      this.#duration = 0;
+      this.#combo.length = 0;
+    } else if (this.#bits !== this.#prevBits) {
+      this.#duration = 0;
+      if (this.#bits !== 0)
+        this.#combo.push(this.#bits);
+    } else if (this.#bits !== 0 && this.#bits === this.#prevBits) {
+      this.#combo.pop();
+      this.#combo.push(this.#bits);
+    }
+    this.#pollTick = tick;
+    this.#pollBits = this.#bits;
+  }
+  register(op) {
+    this.#keyboard.register(op);
+    this.#pointer.register(op);
+  }
+  reset() {
+    this.handled = false;
+    this.#gamepad.reset();
+    this.#keyboard.reset();
+    this.#pointer.reset();
+  }
+  /**
+   * The current state and prospective combo member. A zero value can never be a
+   * combo member but is necessary to persist in previous to distinguish the off
+   * state between repeated button presses like up, up.
+   */
+  get #bits() {
+    return this.#gamepad.bits | this.#keyboard.bits | this.#pointer.bits;
+  }
+  #buttonsToBits(buttons) {
+    let bits = 0;
+    for (const button of buttons)
+      bits |= this.#bitByButton[button] ?? 0;
+    return bits;
+  }
+  #map(button) {
+    return this.#bitByButton[button] ??= 1 << Object.keys(this.#bitByButton).length;
+  }
+};
+
+// https://deno.land/x/oid@v0.0.11/src/sprite/sprite.ts
+var Sprite = class _Sprite {
+  static parse(atlas2, json) {
+    if (!(json.tag in atlas2))
+      throw Error(`atlas missing tag "${json.tag}"`);
+    const sprite = new _Sprite(atlas2, json.tag);
+    sprite.cel = json.cel ?? 0;
+    sprite.flipX = json.flip === "X" || json.flip === "XY";
+    sprite.flipY = json.flip === "Y" || json.flip === "XY";
+    sprite.x = json.x ?? 0;
+    sprite.y = json.y ?? 0;
+    sprite.z = json.z ?? 0;
+    sprite.zend = json.zend ?? false;
+    if (json.w != null)
+      sprite.w = json.w;
+    if (json.h != null)
+      sprite.h = json.h;
+    return sprite;
+  }
+  hitbox = { x: 0, y: 0, w: 0, h: 0 };
+  _iffzz = 0;
+  _xy = 0;
+  _wh = 0;
+  #anim = {};
+  #atlas;
+  constructor(atlas2, tag) {
+    this.#atlas = atlas2;
+    this.tag = tag;
+  }
+  above(sprite) {
+    const compare = this.z === sprite.z ? (sprite.zend ? sprite.y + sprite.h : sprite.y) - (this.zend ? this.y + this.h : this.y) : this.z - sprite.z;
+    return compare < 0;
+  }
+  get cel() {
+    return this._iffzz >> 6 & 15;
+  }
+  /** Set to frame number to start at the beginning. */
+  set cel(cel) {
+    this._iffzz = this._iffzz & 4294966335 | (cel & 15) << 6;
+  }
+  get flipX() {
+    return !!(this._iffzz & 32);
+  }
+  set flipX(flip) {
+    if (this.flipX === flip)
+      return;
+    if (flip) {
+      this._iffzz |= 32;
+      const diff = this.hitbox.x - this.x;
+      this.hitbox.x = this.x + this.hitbox.w - diff;
+    } else {
+      this._iffzz &= 4294967263;
+      const diff = this.hitbox.x - this.hitbox.w;
+      this.hitbox.x = this.x + diff;
+    }
+  }
+  get flipY() {
+    return !!(this._iffzz & 16);
+  }
+  set flipY(flip) {
+    if (this.flipY === flip)
+      return;
+    if (flip) {
+      this._iffzz |= 16;
+      const diff = this.hitbox.y - this.y;
+      this.hitbox.y = this.y + this.hitbox.h - diff;
+    } else {
+      this._iffzz &= 4294967279;
+      const diff = this.hitbox.y - this.hitbox.h;
+      this.hitbox.y = this.y + diff;
+    }
+  }
+  get h() {
+    return this._wh & 4095;
+  }
+  set h(h) {
+    this._wh = this._wh & 4294963200 | h & 4095;
+  }
+  hits(box) {
+    if (this.hitbox.w === 0)
+      return false;
+    if (box instanceof _Sprite)
+      box = box.hitbox;
+    return this.hitbox.x < box.x + (box.w ?? 0) && this.hitbox.x + this.hitbox.w > box.x && this.hitbox.y < box.y + (box.h ?? 0) && this.hitbox.y + this.hitbox.h > box.y;
+  }
+  overlaps(box) {
+    return this.x < box.x + (box.w ?? 0) && this.x + this.w > box.x && this.y < box.y + (box.h ?? 0) && this.y + this.h > box.y;
+  }
+  get tag() {
+    return this.#anim.tag;
+  }
+  set tag(tag) {
+    if (tag === this.#anim.tag)
+      return;
+    this.#anim = this.#atlas[tag];
+    const { hitbox } = this.#anim;
+    this.hitbox.x = this.x + (this.flipX ? hitbox.w - hitbox.x : hitbox.x);
+    this.hitbox.y = this.y + (this.flipY ? hitbox.h - hitbox.y : hitbox.y);
+    this.hitbox.w = this.#anim.hitbox.w;
+    this.hitbox.h = this.#anim.hitbox.h;
+    this.w = this.#anim.w;
+    this.h = this.#anim.h;
+    this._iffzz = this._iffzz & 68717379647 | this.#anim.id << 6;
+  }
+  toString() {
+    return `${this.tag} (${this.x}, ${this.y}) ${this.w}\xD7${this.h}`;
+  }
+  get w() {
+    return this._wh >> 12 & 4095;
+  }
+  set w(w) {
+    this._wh = this._wh & 4278194175 | (w & 4095) << 12;
+  }
+  get x() {
+    return (this._xy >> 16) / 8;
+  }
+  set x(x) {
+    const diff = x - this.x;
+    this._xy = this._xy & 65535 | (8 * x & 65535) << 16;
+    this.hitbox.x += diff;
+  }
+  set xy(xy) {
+    this.x = xy.x;
+    this.y = xy.y;
+  }
+  get y() {
+    return (this._xy << 16 >> 16) / 8;
+  }
+  set y(y) {
+    const diff = y - this.y;
+    this._xy = this._xy & 4294901760 | 8 * y & 65535;
+    this.hitbox.y += diff;
+  }
+  get z() {
+    return this._iffzz & 7;
+  }
+  /** Greater is further. */
+  set z(z) {
+    this._iffzz = this._iffzz & 4294967288 | z & 7;
+  }
+  get zend() {
+    return !!(this._iffzz & 8);
+  }
+  set zend(end) {
+    if (end)
+      this._iffzz |= 8;
+    else
+      this._iffzz &= 4294967287;
+  }
+};
+
+// https://deno.land/x/oid@v0.0.11/src/storage/json-storage.ts
+var JSONStorage = class {
+  get(key) {
+    const val = localStorage.getItem(key);
+    return val == null ? void 0 : JSON.parse(val);
+  }
+  put(key, val) {
+    if (val == null)
+      localStorage.removeItem(key);
+    else
+      localStorage.setItem(key, JSON.stringify(val));
+  }
+};
+
+// https://deno.land/x/oid@v0.0.11/mod.ts
+var Void = class _Void {
+  static async new() {
+    return new _Void(await loadImage(atlasURI));
+  }
+  atlas = atlas;
+  cam = new Cam();
+  ctrl;
+  kv = new JSONStorage();
+  synth = new Synth();
+  #bitmaps = new BitmapBuffer(1e6);
+  #framer;
+  #renderer;
+  constructor(spritesheet) {
+    const meta = document.createElement("meta");
+    meta.name = "viewport";
+    meta.content = "maximum-scale=1, minimum-scale=1, user-scalable=no";
+    document.head.appendChild(meta);
+    document.body.style.margin = "0";
+    document.body.style.width = "100vw";
+    document.body.style.height = "100vh";
+    document.body.style.overflow = "hidden";
+    const canvas = document.createElement("canvas");
+    canvas.style.cursor = "none";
+    canvas.style.display = "block";
+    canvas.style.imageRendering = "pixelated";
+    canvas.style.touchAction = "none";
+    document.body.append(canvas);
+    this.ctrl = new Input(this.cam, canvas);
+    this.#renderer = new Renderer(atlas, canvas, spritesheet);
+    this.#framer = new FrameListener(canvas, this.ctrl, this.#renderer);
+    this.#framer.register("add");
+    this.background = 255;
+  }
+  set background(rgba) {
+    document.body.style.background = `#${rgba.toString(16).padStart(8, "0")}`;
+    this.#renderer.clearColor(rgba);
+  }
+  blit(bmp) {
+    this.#bitmaps.push(bmp);
+  }
+  get frame() {
+    return this.#framer.frame;
+  }
+  render(loop2) {
+    this.cam.resize();
+    this.#framer.render(this.cam, this.#bitmaps, loop2);
+    this.#bitmaps.size = 0;
+  }
+  sprite(tag) {
+    return new Sprite(this.atlas, tag);
+  }
+  stop() {
+    this.#framer.cancel();
+    this.#framer.register("remove");
+    this.ctrl.register("remove");
+  }
+};
+function loadImage(src) {
+  return new Promise((resolve, reject) => {
+    const img = new Image();
+    img.onload = () => resolve(img);
+    img.onerror = () => reject(img);
+    img.src = src;
+  });
+}
+
+// deno.json
+var deno_default = {
+  compilerOptions: {
+    exactOptionalPropertyTypes: true,
+    noImplicitOverride: true,
+    noUncheckedIndexedAccess: true,
+    lib: ["deno.ns", "dom"]
+  },
+  fmt: { semiColons: false, singleQuote: true },
+  imports: {
+    "@/solitaire": "https://deno.land/x/solitaire@v0.0.9/mod.ts",
+    "@/void": "https://deno.land/x/oid@v0.0.11/mod.ts",
+    "std/": "https://deno.land/std@0.192.0/"
+  },
+  lock: false,
+  name: "super-patience",
+  tasks: {
+    start: "mkdir -p dist && ../void/make --favicon=assets/favicon.aseprite --in=src/index.ts --origin=https://superpatience.com --out=dist/index.html --title='Super Patience' --watch=dist -- assets/atlas/*.aseprite",
+    build: "mkdir -p dist && ../void/make --favicon=assets/favicon.aseprite --in=src/index.ts --origin=https://superpatience.com --out=dist/index.html --title='Super Patience' -- assets/atlas/*.aseprite",
+    test: "deno check src/index.ts && deno lint && deno fmt --check"
+  },
+  version: "1.2.2"
+};
+
+// src/layer.ts
+var Layer = {
+  Cursor: 0,
+  Picked: 1,
+  CardUp: 2,
+  CardDown: 3,
+  Decal: 5,
+  Background: 6,
+  Hidden: 7
+};
+
+// src/level/level.ts
+var mod = 8;
+var cardWH = { w: 24, h: 32 };
+var tableauY = 72;
+var boardX = 2 * mod;
+var boardY = 16;
+var hiddenY = -1024;
+function invalidateSolitaireSprites(game2) {
+  for (const [indexX, column] of game2.solitaire.tableau.entries()) {
+    for (const [indexY, card] of column.entries()) {
+      const sprite = game2.spriteByCard.get(card);
+      sprite.xy = getTableauCardXY(game2.v.atlas, indexX, indexY);
+      sprite.z = Layer[card.direction === "Up" ? "CardUp" : "CardDown"];
+      sprite.tag = getCardTag(card);
+    }
+  }
+  for (const pillar of game2.solitaire.foundation) {
+    for (const [index, card] of pillar.entries()) {
+      const sprite = game2.spriteByCard.get(card);
+      sprite.xy = getFoundationCardXY(game2.v.atlas, card.suit);
+      const tag = index === pillar.length - 1 ? getCardTag(card) : "card--Down";
+      sprite.z = Layer[tag === "card--Down" ? "CardDown" : "CardUp"];
+      sprite.tag = tag;
+    }
+  }
+  for (const [index, card] of game2.solitaire.stock.entries()) {
+    const sprite = game2.spriteByCard.get(card);
+    sprite.xy = getStockXY(game2.solitaire, index);
+    sprite.z = Layer[card.direction === "Up" ? "CardUp" : "CardDown"];
+    sprite.tag = getCardTag(card);
+  }
+  for (const [index, card] of game2.solitaire.waste.entries()) {
+    const sprite = game2.spriteByCard.get(card);
+    sprite.xy = getWasteXY(game2.solitaire, index);
+    let tag;
+    if (index >= game2.solitaire.waste.length - game2.solitaire.drawSize) {
+      tag = getCardTag(card);
+    } else
+      tag = "card--Down";
+    sprite.z = Layer[tag === "card--Down" ? "CardDown" : "CardUp"];
+    sprite.tag = tag;
+  }
+}
+function getStockXY(solitaire2, indexY) {
+  return {
+    x: boardX + 160,
+    // All cards in the stock are at the same point and on the same layer. Only
+    // the top card should be pickable though so hide the rest off-cam since
+    // they're not drawn in the correct order.
+    y: boardY + (solitaire2.stock.length - 1 === indexY ? 0 : hiddenY)
+  };
+}
+function getWasteXY(solitaire2, index) {
+  const top = solitaire2.waste.length - solitaire2.drawSize;
+  const mul = Math.max(index - top, 0);
+  return { x: 208, y: boardY + mul * mod };
+}
+function getFoundationCardXY(atlas2, suit) {
+  const anim = atlas2[`card--Vacant${suit}`];
+  const mul = { Clubs: 0, Diamonds: 1, Hearts: 2, Spades: 3 }[suit];
+  return { x: boardX + mod * 4 + mul * (anim.w + mod), y: boardY };
+}
+function getTableauCardXY(atlas2, indexX, indexY) {
+  const anim = atlas2["card--VacantPile"];
+  return { x: boardX + indexX * (anim.w + mod), y: tableauY + indexY * mod };
+}
+function getCardTag(card) {
+  return card.direction === "Up" ? `card--${cardToASCII(card)}` : "card--Down";
+}
+
+// src/ecs/systems/card-system.ts
+var CardSystem = class {
+  query = ["card", "sprite"];
+  #selected = [];
+  #piles;
+  #vacantStock;
+  constructor(piles, vacantStock) {
+    this.#piles = piles;
+    this.#vacantStock = vacantStock;
+  }
+  run(ents2, game2) {
+    if (game2.v.ctrl.handled)
+      return;
+    const picked = pick(ents2, game2);
+    const isStockPick = picked?.sprite.hits(this.#vacantStock);
+    if (picked?.card.direction === "Down" && !isStockPick && game2.v.ctrl.isOffStart("A") || picked?.card.direction === "Up" && !isStockPick && game2.v.ctrl.isOnStart("A") || picked != null && isStockPick && game2.v.ctrl.isOffStart("A")) {
+      game2.v.ctrl.handled = true;
+      this.#setSelected(game2, picked.card);
+    }
+    if (game2.v.ctrl.isOn("A") && this.#selected.length > 0) {
+      game2.v.ctrl.handled = true;
+      moveEntsToCursor(game2, this.#selected);
+    } else {
+      invalidateSolitaireSprites(game2);
+    }
+    if (game2.solitaire.selected != null && game2.v.ctrl.isOffStart("A")) {
+      game2.v.ctrl.handled = true;
+      if (this.#selected.length === 0) {
+        const picked2 = pick(ents2, game2);
+        if (picked2 == null)
+          solitaireDeselect(game2.solitaire);
+        else
+          solitairePoint(game2.solitaire, picked2.card);
+      } else {
+        const drop = this.#drop(game2);
+        if (drop != null && game2.solitaire.selected != null && drop.pile.type !== "Waste")
+          solitaireBuild(game2.solitaire, drop.pile);
+        solitaireDeselect(game2.solitaire);
+        this.#selected.length = 0;
+      }
+      invalidateSolitaireSprites(game2);
+    }
+  }
+  #setSelected(game2, card) {
+    const selection = solitairePoint(game2.solitaire, card);
+    if (selection == null)
+      return;
+    const selected = selection.cards.map(
+      (card2) => {
+        const sprite = game2.spriteByCard.get(card2);
+        return {
+          sprite,
+          offset: { x: game2.cursor.x - sprite.x, y: game2.cursor.y - sprite.y }
+        };
+      }
+    );
+    for (const select of selected)
+      select.sprite.z = Layer.Picked;
+    this.#selected.length = 0;
+    this.#selected.push(...selected);
+  }
+  #drop(update) {
+    const pick2 = this.#selected[0];
+    if (pick2 == null)
+      return;
+    let drop;
+    for (const ent of this.#piles) {
+      const overlap = intersection(pick2.sprite, ent.sprite);
+      if (overlap.w <= 0 || overlap.h <= 0 || ent.pile.type === "Waste" || !solitaireIsBuildable(update.solitaire, ent.pile))
+        continue;
+      const area = overlap.w * overlap.h;
+      if (drop == null || area > drop.area)
+        drop = { area, ent };
+    }
+    return drop?.ent;
+  }
+};
+function pick(ents2, game2) {
+  let picked;
+  for (const ent of ents2) {
+    if (!ent.sprite.hits(game2.cursor))
+      continue;
+    if (picked == null || ent.sprite.above(picked.sprite))
+      picked = ent;
+  }
+  return picked;
+}
+function moveEntsToCursor(game2, selected) {
+  for (const pick2 of selected) {
+    pick2.sprite.x = game2.cursor.x - pick2.offset.x;
+    pick2.sprite.y = game2.cursor.y - pick2.offset.y;
+  }
+}
+function intersection(lhs, rhs) {
+  const x = Math.max(lhs.x, rhs.x);
+  const y = Math.max(lhs.y, rhs.y);
+  return {
+    x,
+    y,
+    w: Math.min(lhs.x + lhs.w, rhs.x + rhs.w) - x,
+    h: Math.min(lhs.y + lhs.h, rhs.y + rhs.h) - y
+  };
+}
+
+// src/ecs/systems/cursor-system.ts
+var CursorSystem = class {
+  query = ["cursor", "sprite"];
+  run(ents2, game2) {
+    for (const ent of ents2) {
+      if (game2.v.ctrl.isOnStart("A"))
+        ent.sprite.tag = "cursor--Pick";
+      else if (game2.v.ctrl.isOffStart("A"))
+        ent.sprite.tag = "cursor--Point";
+      if (game2.v.ctrl.point) {
+        if (game2.v.ctrl.pointType === "pen" || game2.v.ctrl.pointType === "touch")
+          ent.sprite.z = Layer.Hidden;
+        else
+          ent.sprite.z = Layer.Cursor;
+      }
+    }
+  }
+};
+
+// src/ecs/systems/follow-cam-system.ts
+var FollowCamSystem = class {
+  query = ["followCam", "sprite"];
+  run(ents2, game2) {
+    for (const ent of ents2) {
+      const { followCam, sprite } = ent;
+      const pad = { x: followCam.pad?.x ?? 0, y: followCam.pad?.y ?? 0 };
+      if (followCam.fill === "X" || followCam.fill === "XY") {
+        sprite.w = game2.v.cam.w - pad.x * 2;
+      }
+      if (followCam.fill === "Y" || followCam.fill === "XY") {
+        sprite.h = game2.v.cam.h - pad.y * 2;
+      }
+      sprite.x = computeX(sprite, game2.v.cam, followCam);
+      sprite.y = computeY(sprite, game2.v.cam, followCam);
+    }
+  }
+};
+function computeX(sprite, cam, component) {
+  const padW = component.pad?.x ?? 0;
+  let x = cam.x;
+  switch (component.orientation) {
+    case "Southwest":
+    case "West":
+    case "Northwest":
+      x += padW;
+      break;
+    case "Southeast":
+    case "East":
+    case "Northeast":
+      x += cam.w - (sprite.w + padW);
+      break;
+    case "North":
+    case "South":
+    case "Center":
+      x += Math.trunc(cam.w / 2) - (Math.trunc(sprite.w / 2) + padW);
+      break;
+  }
+  const modulo = (component.modulo?.x ?? x) || 1;
+  return x - x % modulo;
+}
+function computeY(sprite, cam, component) {
+  const padH = component.pad?.y ?? 0;
+  let y = cam.y;
+  switch (component.orientation) {
+    case "North":
+    case "Northeast":
+    case "Northwest":
+      y += padH;
+      break;
+    case "Southeast":
+    case "South":
+    case "Southwest":
+      y += cam.h - (sprite.h + padH);
+      break;
+    case "East":
+    case "West":
+    case "Center":
+      y += Math.trunc(cam.h / 2) - (Math.trunc(sprite.h / 2) + padH);
+      break;
+  }
+  const modulo = (component.modulo?.y ?? y) || 1;
+  return y - y % modulo;
+}
+
+// src/ecs/systems/follow-point-system.ts
+var FollowPointSystem = class {
+  query = ["followPoint", "sprite"];
+  run(ents2, game2) {
+    if (game2.v.ctrl.point == null)
+      return;
+    for (const ent of ents2)
+      ent.sprite.xy = game2.v.ctrl.point;
+  }
+};
+
+// src/save-data.ts
+var saveKey = "save";
+
+// src/ecs/systems/patience-the-demon-system.ts
+var PatienceTheDemonSystem = class {
+  query = ["patienceTheDemon", "sprite"];
+  run(ents2, game2) {
+    for (const ent of ents2) {
+      const blink = game2.v.frame % (60 * 60) < 18 ? "Blink" : "";
+      const good = ent.sprite.tag.includes("Good");
+      ent.sprite.tag = `patience-the-demon--${good ? "Good" : "Evil"}${blink}`;
+      if (game2.v.ctrl.handled || !game2.v.ctrl.isOffStart("A"))
+        return;
+      if (game2.cursor.hits(ent.sprite)) {
+        game2.v.ctrl.handled = true;
+        ent.sprite.tag = `patience-the-demon--${good ? "Evil" : "Good"}${blink}`;
+      } else if (game2.cursor.hits({
+        x: ent.sprite.x,
+        y: ent.sprite.y,
+        w: ent.sprite.w,
+        h: ent.sprite.h
+      })) {
+        game2.v.ctrl.handled = true;
+        solitaireReset(game2.solitaire);
+        game2.v.kv.put(saveKey, { wins: game2.solitaire.wins });
+      }
+    }
+  }
+};
+
+// src/ecs/systems/pile-hitbox-system.ts
+var PileHitboxSystem = class {
+  query = ["pile", "sprite"];
+  run(ents2, game2) {
+    for (const ent of ents2) {
+      const { pile, sprite } = ent;
+      const xy = pile.type === "Waste" ? { x: sprite.x + mod - 1, y: sprite.y + mod - 1 } : pile.type === "Tableau" ? getTableauCardXY(game2.v.atlas, pile.x, 0) : getFoundationCardXY(game2.v.atlas, pile.suit);
+      sprite.x = xy.x - mod + 1;
+      sprite.y = xy.y - mod + 1;
+      sprite.w = sprite.hitbox.w = cardWH.w + mod * 2 - 1;
+      sprite.h = sprite.hitbox.h = cardWH.h + (pile.type === "Waste" ? (game2.solitaire.waste.length > 0 ? game2.solitaire.drawSize - 1 : 0) * mod : pile.type === "Tableau" ? Math.max(
+        0,
+        game2.solitaire.tableau[pile.x].length - 1
+      ) * mod : 0) + mod * 2 - 1;
+    }
+  }
+};
+
+// src/level/level.json
+var level_default = [
+  {
+    name: "cursor",
+    cursor: {},
+    followPoint: {},
+    sprite: { tag: "cursor--Point", layer: "Hidden" }
+  },
+  {
+    name: "background corner NW",
+    followCam: { orientation: "Northwest" },
+    sprite: {
+      tag: "background--Corner",
+      layer: "Background"
+    }
+  },
+  {
+    name: "background corner NE",
+    followCam: { orientation: "Northeast" },
+    sprite: {
+      tag: "background--Corner",
+      layer: "Background",
+      flip: "X"
+    }
+  },
+  {
+    name: "background corner SE",
+    followCam: { orientation: "Southeast" },
+    sprite: {
+      tag: "background--Corner",
+      layer: "Background",
+      flip: "XY"
+    }
+  },
+  {
+    name: "background corner SW",
+    followCam: { orientation: "Southwest" },
+    sprite: {
+      tag: "background--Corner",
+      layer: "Background",
+      flip: "Y"
+    }
+  },
+  {
+    name: "background",
+    followCam: {
+      fill: "XY",
+      orientation: "Northwest",
+      pad: { x: 1, y: 1 }
+    },
+    sprite: {
+      tag: "background--Grid",
+      layer: "Background",
+      zend: true
+    }
+  },
+  {
+    name: "stock background",
+    sprite: {
+      tag: "palette--Light",
+      layer: "Background",
+      x: 169,
+      y: 9,
+      w: 39,
+      h: 47
+    }
+  },
+  {
+    pile: { type: "Waste" },
+    sprite: {
+      tag: "palette--Light",
+      layer: "Background",
+      x: 201,
+      y: 9
+    }
+  },
+  {
+    name: "waste vacancy",
+    sprite: { tag: "card--VacantPile", layer: "Decal", x: 208, y: 16 }
+  },
+  {
+    name: "Patience the Demon",
+    followCam: {
+      modulo: { x: 8, y: 8 },
+      orientation: "Northwest",
+      pad: { x: 16, y: 16 }
+    },
+    patienceTheDemon: {},
+    sprite: { tag: "patience-the-demon--Good", layer: "Decal" }
+  }
+];
+
+// src/level/level-parser.ts
+function parseLevel(atlas2) {
+  return level_default.map((json) => parseComponentSet(atlas2, json));
+}
+function parseComponentSet(atlas2, json) {
+  const set = {};
+  for (const [key, val] of Object.entries(json)) {
+    switch (key) {
+      case "cursor":
+        set[key] = {};
+        break;
+      case "followCam":
+        set[key] = val;
+        break;
+      case "followPoint":
+        set[key] = {};
+        break;
+      case "patienceTheDemon":
+        set[key] = {};
+        break;
+      case "pile": {
+        const type = val.type;
+        if (type !== "Waste")
+          throw Error(`unsupported pile type "${type}"`);
+        set[key] = { type: "Waste" };
+        break;
+      }
+      case "sprite": {
+        const sprite = Sprite.parse(atlas2, val);
+        sprite.z = Layer[val.layer];
+        set[key] = sprite;
+        break;
+      }
+      case "//":
+      case "name":
+        break;
+      default:
+        throw Error(`unsupported level config type "${key}"`);
+    }
+  }
+  return set;
+}
+
+// src/level/ent-factory.ts
+var maxTallies = 26;
+function* newLevelComponents(v2, solitaire2) {
+  yield* newTallies(v2);
+  yield* newFoundation(v2);
+  yield* newStock(v2, solitaire2);
+  yield* newTableau(v2, solitaire2);
+  yield* newWaste(v2, solitaire2);
+  yield* parseLevel(v2.atlas);
+}
+function newCard(v2, card, xy) {
+  const sprite = v2.sprite(getCardTag(card));
+  sprite.z = Layer[`Card${card.direction}`];
+  sprite.xy = xy;
+  return { card, sprite };
+}
+function* newFoundation(v2) {
+  for (const suit of SuitSet) {
+    const vacant = v2.sprite(`card--Vacant${suit}`);
+    vacant.xy = getFoundationCardXY(v2.atlas, suit);
+    vacant.z = Layer.Decal;
+    yield { sprite: vacant };
+    const palette = v2.sprite("palette--Light");
+    palette.xy = getFoundationCardXY(v2.atlas, suit);
+    palette.z = Layer["Background"];
+    yield { pile: { type: "Foundation", suit }, sprite: palette };
+  }
+}
+function* newStock(v2, solitaire2) {
+  const vacant = v2.sprite("card--VacantStock");
+  vacant.z = Layer.Decal;
+  vacant.xy = getStockXY(solitaire2, solitaire2.stock.length - 1);
+  yield { vacantStock: true, sprite: vacant };
+  for (const [index, card] of solitaire2.stock.entries()) {
+    yield newCard(v2, card, getStockXY(solitaire2, index));
+  }
+}
+function* newTableau(v2, solitaire2) {
+  for (const [indexX, pile] of solitaire2.tableau.entries()) {
+    const x = indexX;
+    const palette = v2.sprite("palette--Light");
+    palette.z = Layer.Background;
+    palette.xy = getTableauCardXY(v2.atlas, x, 0);
+    yield { pile: { type: "Tableau", x }, sprite: palette };
+    const vacant = v2.sprite("card--VacantPile");
+    vacant.z = Layer.Decal;
+    vacant.xy = getTableauCardXY(v2.atlas, x, 0);
+    yield { sprite: vacant };
+    for (const [indexY, card] of pile.entries()) {
+      yield newCard(v2, card, getTableauCardXY(v2.atlas, x, indexY));
+    }
+  }
+}
+function* newTallies(v2) {
+  for (let i = 0; i < maxTallies; i++) {
+    const sprite = v2.sprite("tally--0");
+    sprite.z = Layer.Decal;
+    yield {
+      followCam: {
+        modulo: { x: mod, y: mod },
+        orientation: "Northeast",
+        pad: { x: 0, y: 8 + i * 8 }
+      },
+      tally: { tens: i },
+      sprite
+    };
+  }
+}
+function* newWaste(v2, solitaire2) {
+  for (const [index, card] of solitaire2.waste.entries()) {
+    const xy = getWasteXY(solitaire2, index);
+    yield newCard(v2, card, xy);
+  }
+}
+
+// src/ecs/systems/tally-system.ts
+var TallySystem = class {
+  query = ["sprite", "tally"];
+  run(ents2, game2) {
+    for (const ent of ents2) {
+      const max = maxTallies * 10;
+      const wins = Math.min(10, Math.max(0, game2.solitaire.wins - ent.tally.tens * 10)) + Math.min(
+        10,
+        Math.max(0, game2.solitaire.wins - max - ent.tally.tens * 10)
+      );
+      ent.sprite.tag = `tally--${wins}`;
+    }
+  }
+};
+
+// src/ecs/systems/vacant-stock-system.ts
+var VacantStockSystem = class {
+  query = ["vacantStock", "sprite"];
+  run(ents2, game2) {
+    if (game2.v.ctrl.handled || !game2.v.ctrl.isOffStart("A"))
+      return;
+    for (const ent of ents2) {
+      if (!ent.sprite.hits(game2.cursor))
+        return;
+      game2.v.ctrl.handled = true;
+      solitaireDeal(game2.solitaire);
+      invalidateSolitaireSprites(game2);
+      return;
+    }
+  }
+};
+
+// src/index.ts
+console.log(`Super Patience v${deno_default.version} by oidoid`);
+var v = await Void.new();
+v.background = 169483007;
+v.cam.minWH.w = 256;
+v.cam.minWH.h = 214;
+v.ctrl.mapStandard();
+var save = v.kv.get(saveKey) ?? { wins: 0 };
+var solitaire = Solitaire(Math.random, save.wins);
+var ents = [...newLevelComponents(v, solitaire)];
+var systems = [
+  new FollowCamSystem(),
+  new CursorSystem(),
+  new FollowPointSystem(),
+  new CardSystem(
+    filter(ents, "pile", "sprite"),
+    filter(ents, "vacantStock", "sprite")[0].sprite
+  ),
+  new PileHitboxSystem(),
+  new VacantStockSystem(),
+  new PatienceTheDemonSystem(),
+  new TallySystem()
+];
+var game = {
+  v,
+  solitaire,
+  cursor: filter(ents, "cursor", "sprite")[0].sprite,
+  spriteByCard: new Map(
+    filter(ents, "card", "sprite").map((ent) => [ent.card, ent.sprite])
+  )
+};
+game.v.render(loop);
+function loop() {
+  const camOffsetX = Math.trunc((v.cam.w - v.cam.minWH.w) / 2);
+  v.cam.x = -camOffsetX + camOffsetX % 8;
+  for (const system of systems) {
+    ;
+    system.run(
+      filter(ents, ...system.query),
+      game
+    );
+  }
+  for (const ent of ents)
+    if (ent.sprite)
+      v.blit(ent.sprite);
+  game.v.render(loop);
+}
+function filter(ents2, ...keys) {
+  return ents2.filter((ent) => keys.every((key) => ent[key] != null));
+}
+
+    </script>
+  </head>
+</html>
